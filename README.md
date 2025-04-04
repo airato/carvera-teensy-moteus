@@ -6,7 +6,7 @@ Use [Moteus](https://mjbots.com/) motor controller instead of factory standard B
 - [Carvera CNC](https://www.makera.com/products/carvera) (might work with Carvera Air too)
 - [Teensy 4.1](https://www.digikey.ca/en/products/detail/sparkfun-electronics/DEV-16996/13158152)
 - [Moteus C1](https://mjbots.com/products/moteus-c1) or [Moteus N1](https://mjbots.com/products/moteus-n1)
-- [M600 encoder for Moteus](https://mjbots.com/products/ma600-breakout)
+- [MA600 encoder for Moteus](https://mjbots.com/products/ma600-breakout)
 - [mjcanfd-usb-1x](https://mjbots.com/products/mjcanfd-usb-1x) and [JST PH3 Cable](https://mjbots.com/products/jst-ph3-cable) for initial Moteus calibration
 - [Adafruit CAN Pal - CAN Bus Transceiver - TJA1051T/3](https://www.adafruit.com/product/5708)
 - [Adafruit 8-channel Bi-directional Logic Level Converter - TXB0108](https://www.adafruit.com/product/395)
@@ -25,5 +25,5 @@ Use [Moteus](https://mjbots.com/) motor controller instead of factory standard B
 - Carvera spindle motor is 8 pole motor
 - Moteus Arduino library does not support Teensy. Need to install "Moteus" library via Arduino IDE library manager, then replace Moteus folder in Arduino/libraries with https://github.com/kylevernyi/moteus-teensy
 - Need to connect Moteus controller to a computer for initial configuration and calibration. Need to do that with belt off.
-- Moteus controller can't reach max RPM when using motor's hall sensors, had to use M600 magenitic encoder. CAD file for the bracket is in the repo.
+- Moteus controller can't reach max RPM when using motor's hall sensors, had to use MA600 magenitic encoder. CAD file for the bracket is in the repo.
 
